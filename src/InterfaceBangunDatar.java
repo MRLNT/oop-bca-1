@@ -4,3 +4,5 @@ public interface InterfaceBangunDatar {
     double getKeliling();
     double getLuas();
 }
+
+//abs

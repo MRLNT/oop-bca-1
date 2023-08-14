@@ -4,7 +4,7 @@ public class Kubus extends ParentBangunRuang implements InterfaceBangunRuang {
     public Kubus(double sisi) {
         this.sisi = sisi;
     }
-
+    //polymorphism
     @Override
     public double getVolume() {
         return sisi * sisi * sisi;

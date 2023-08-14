@@ -1,5 +1,6 @@
 public class Lingkaran extends ParentBangunDatar implements InterfaceBangunDatar {
     private double jariJari;
+    //extend inheritance
 
     public Lingkaran(double jariJari) {
         this.jariJari = jariJari;
@@ -24,4 +25,5 @@ public class Lingkaran extends ParentBangunDatar implements InterfaceBangunDatar
     public double getLuas() {
         return 3.14 * jariJari * jariJari;
     }
+    //geter seter
 }
