@@ -1,4 +1,4 @@
-public class Tabung extends ParentBangunRuang implements InterfaceBangunRuang {
+public class Tabung implements InterfaceBangunRuang {
     private double jariJari;
     private double tinggi;
 

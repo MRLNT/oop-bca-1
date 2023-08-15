@@ -1,4 +1,4 @@
-public class PersegiPanjang extends ParentBangunDatar implements InterfaceBangunDatar {
+public class PersegiPanjang implements InterfaceBangunDatar {
     private double panjang;
     private double lebar;
 

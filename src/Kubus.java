@@ -1,4 +1,4 @@
-public class Kubus extends ParentBangunRuang implements InterfaceBangunRuang {
+public class Kubus implements InterfaceBangunRuang {
     private double sisi;
 
     public Kubus(double sisi) {

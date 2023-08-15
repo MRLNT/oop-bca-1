@@ -1,4 +1,4 @@
-public class Lingkaran extends ParentBangunDatar implements InterfaceBangunDatar {
+public class Lingkaran implements InterfaceBangunDatar {
     private double jariJari;
     //extend inheritance
 

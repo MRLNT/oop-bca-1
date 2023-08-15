@@ -1,4 +1,4 @@
-public class Persegi extends ParentBangunDatar implements InterfaceBangunDatar {
+public class Persegi implements InterfaceBangunDatar {
     private double sisi;
 
     public Persegi(double sisi) {

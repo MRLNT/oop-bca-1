@@ -1,4 +1,4 @@
-public class Balok extends ParentBangunRuang implements InterfaceBangunRuang {
+public class Balok implements InterfaceBangunRuang {
     private double panjang;
     private double lebar;
     private double tinggi;

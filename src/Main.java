@@ -19,6 +19,7 @@ public class Main {
                 System.out.println("Terima kasih!");
                 break;
             }
+            //constructornya
             //InterfaceBangunDatar bangunDatar = new Persegi(sisiPersegi);
             InterfaceBangunDatar bangunDatar = null;
             InterfaceBangunRuang bangunRuang = null;
@@ -56,9 +57,9 @@ public class Main {
                     bangunRuang = new Tabung(jariJarii, tinggiTabungg);
                     break;
                 case 6:
-                    System.out.print("Masukkan panjang persegi panjang: ");
+                    System.out.print("Masukkan panjang balok: ");
                     double panjangg = scanner.nextDouble();
-                    System.out.print("Masukkan lebar persegi panjang: ");
+                    System.out.print("Masukkan lebar balok: ");
                     double lebarr = scanner.nextDouble();
                     bangunDatar = new PersegiPanjang(panjangg, lebarr);
                     System.out.print("Masukkan tinggi balok: ");
